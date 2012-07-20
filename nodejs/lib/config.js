@@ -14,7 +14,7 @@ var overrideProperty = module.exports.overrideProperty = function(obj, prop, val
 	obj[prop] = value;
 };
 var overrideObject = module.exports.overrideObject = function(obj) {
-	var i, prop, source;
+	var i, prop, len, source;
 	for( i = 1, len = arguments.length; i < len; i++) {
 		source = arguments[i];
 		for(prop in source) {
