@@ -16,7 +16,6 @@ var exportLibs = function(exports /*libs to include */) {
 				continue;
 			}
 			if (obj.hasOwnProperty(feature)) {
-				console.log(obj);
 				throw new Error('Feature exists: ' + feature);
 			}
 			obj[feature] = libfeatures[feature];
