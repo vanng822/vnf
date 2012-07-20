@@ -24,4 +24,4 @@ var exportLibs = function(exports /*libs to include */) {
 	return exports;
 };
 
-exportLibs(module.exports, 'html', 'config');
+exportLibs(module.exports, 'html', 'config', 'mobile');
